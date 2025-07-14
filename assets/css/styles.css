@@ -127,23 +127,33 @@ a{
 .client .row {
     display: flex;
 }
-.content .row{
+.client .row{
     justify-content: space-between;
 }
-.content .row-desc {
+.client .row-desc {
     margin-top: 23px;
 }
-.content .desc {
+.client .desc {
     color: #7D8589;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.25;
 }
-.content .images{
+.client .images{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 103px;
+    margin-top: 70px;
+}
+.client .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+}
+.client .images a:hover {
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
 }
 /* =========== Guides ===========*/
 .guides {
