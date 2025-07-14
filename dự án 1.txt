@@ -1,0 +1,17 @@
+dự án 1:
+	- để căn giữa 1 before dùng left(50%) + transform: translateX(-50%)
+	- thẻ p là thẻ block , muốn căn giữa thì dùng margin trái phải
+
+-----------featured item----------
+	-cùng hàng : display: flex
+	- khoảng cách các ảnh: gap: 30px
+	- cùng chiều rộng với nhau thì dùng flex: 1
+	- ảnh được lấp đầy: object-fit : cover
+	- thẻ span là thẻ inline, không căn dược trên dưới nhưng căn dược trái phải
+	- căn các thẻ icon : thẻ icon dầu sẽ bị ảnh hưởng thì dùng margin left: 0 nó sẽ trở lại ví trí ban dầu
+
+	-display: -webkit-box;
+   	-webkit-line-clamp: 2;
+    	-webkit-box-orient: vertical;
+    	overflow: hidden; ------------> cách làm dấu 3 chấm
+	
