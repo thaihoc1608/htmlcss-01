@@ -53,13 +53,13 @@ a{
     top: -26px;
     z-index: 1;
 }
-.hero-wrap{
+.hero-wrap {
     /* background color */
     display: flex;
     flex-direction: column;
     position: relative;
     background: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 .navbar{
     display: flex;
